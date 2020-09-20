@@ -62,6 +62,8 @@ spec:
             value: config-logging
           - name: CONFIG_OBSERVABILITY_NAME
             value: config-observability
+          - name: CONFIG_LEADERELECTION_NAME
+            value: config-leader-election
           - name: METRICS_DOMAIN
             value: knative.dev/sources
           - name: SAMPLE_SOURCE_RA_IMAGE
